@@ -1,6 +1,3 @@
-// Source2.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
 
 using namespace std;
@@ -24,15 +21,9 @@ int main()
     //Output
     cout << "The pay is:  " << pay << endl;
     
-
-
     return 0;
-
-
 }
+
 float calc_pay(int h, float r) {
     return(h * r);
-
 }
-
-
